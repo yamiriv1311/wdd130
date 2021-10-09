@@ -1,0 +1,99 @@
+
+/* I will work with just images first */
+.logo{
+  height: 70px;
+  width: auto;
+}
+
+.river{
+  height: 300px;
+  width: 699px;
+}
+
+.image4{
+  height:250px;
+  width: 340px;
+  position: relative;
+  right: 310px;
+}
+
+.image5{
+  height: 250px;
+  width: 320px;
+  position: relative;
+  left: 390px;
+}
+
+.just1{
+  height: 150px;
+  width: 200px;
+  position: relative;
+  left: 20px
+}
+
+.friends{
+  height: 150px;
+  width: 230px;
+  position: relative;
+  left: 40px
+}
+
+.family{
+  height: 150px;
+  width: 200px;
+  position: relative;
+  left: 60px
+}
+
+
+/* Social media icons */
+.facebook, .email{
+  height: 39px;
+}
+
+.instagram{
+  height: 47px;
+}
+
+/* General style */
+header, main, footer{
+  width: 720px;
+}
+
+h1{
+  color: #253237;
+}
+
+p{
+  color: #60695C;
+}
+main{
+  margin: 0 auto;
+  background-color: #F3EFE0;
+}
+
+header, footer{
+  margin: 0 auto;
+  border: 1px solid #C5D6D8;
+  background-color: #C5D6D8;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+  justify-content: center;
+
+}
+
+footer{
+  grid-template-columns: 1fr 300px;
+}
+
+body{
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.page{
+  max-width: 960px;
+  margin: 0 auto;
+}
