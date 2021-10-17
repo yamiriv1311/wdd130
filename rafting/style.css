@@ -1,0 +1,109 @@
+
+/* I will work with just images first */
+.logo{
+  height: 70px;
+  width: auto;
+  padding: 5px
+}
+
+.river{
+  padding: 7px
+}
+
+.image4{
+  position: relative;
+  right: 310px;
+}
+
+.image5{
+  position: relative;
+  left: 390px;
+}
+
+.just1{
+  position: relative;
+  left: 20px
+}
+
+.friends{
+  position: relative;
+  left: 40px
+}
+
+.family{
+  position: relative;
+  left: 10px
+}
+
+
+/* General style */
+header, main, footer{
+  width: 720px;
+}
+
+h1{
+  color: #253237;
+  padding: 5px;
+}
+
+h2, h3{
+  padding: 5px;
+}
+
+
+p{
+  color: #60695C;
+  padding: 5px;
+}
+
+main{
+  margin: 0 auto;
+  background-color: #F3EFE0;
+}
+
+header, footer{
+  margin: 0 auto;
+  border: 1px solid #C5D6D8;
+  background-color: #C5D6D8;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+  justify-content: center;
+
+}
+
+footer{
+  grid-template-columns: 1fr 300px;
+}
+
+body{
+  font-size: 16px;
+  margin: 0;
+  padding: 5px;
+}
+
+.page{
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.mainnav{
+  list-style-type: none;
+}
+.mainnav{
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.mainnav li {
+  flex: 1 1 auto;
+}
+
+.mainnav a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+}
