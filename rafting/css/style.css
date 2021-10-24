@@ -17,24 +17,32 @@
 
 .image5{
   position: relative;
-  left: 390px;
+  left: 380px;
 }
 
 .just1{
   position: relative;
-  left: 20px
+  left: 10px;
 }
+.just1:hover{box-shadow: 0px 0 30px #99907D;}
 
 .friends{
   position: relative;
-  left: 40px
+  left: 17px;
 }
+.friends:hover{box-shadow: 0px 0 30px #99907D;}
 
 .family{
   position: relative;
-  left: 60px
+  left: 25px;
 }
+.family:hover{box-shadow: 0px 0 30px #99907D;}
 
+.email{
+  height: 50px;
+  position: relative;
+  top: 8px;
+}
 
 /* General style */
 header, main, footer{
@@ -44,67 +52,76 @@ header, main, footer{
 h1{
   color: #253237;
   padding: 5px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 h2, h3{
+  color: #006765;
   padding: 5px;
+  font-family: 'Times New Roman', Times, serif;
 }
-
 
 p{
   color: #60695C;
   padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main{
   margin: 0 auto;
-  background-color: #F3EFE0;
+  background-color: #F9F9F9;
 }
 
-header, footer{
+header{
   margin: 0 auto;
-  border: 1px solid #C5D6D8;
-  background-color: #C5D6D8;
+  border: 5px solid #FFFFFF ;
+  background-color: #FFFFFF ;
   display: grid;
   grid-template-columns: 200px 1fr;
   align-items: center;
   justify-content: center;
-
 }
 
 footer{
-  grid-template-columns: 1fr 300px;
+  margin: 0 auto;
+  border: 5px solid #C5D6D8;
+  background-color: #C5D6D8;
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  align-items: center;
+  justify-content: center;
 }
 
+
 body{
-  font-size: 16px;
+  font-size: 17px;
   margin: 0;
   padding: 5px;
 }
 
-.page{
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.mainnav{
-  list-style-type: none;
-}
 .mainnav{
   list-style-type: none;
   display: flex;
   margin: 0;
   padding: 0;
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .mainnav li {
   flex: 1 1 auto;
 }
 
-
 .mainnav a {
   display: block;
   padding: 1rem;
   text-decoration: none;
+  background-color: #C5D6D8;
+  border: 3px solid #FFFFFF;
 }
+
+.mainnav a:hover{
+  color: #C5D6D8;
+  background-color: #648767;
+}
+
