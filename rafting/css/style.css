@@ -125,7 +125,7 @@ body{
 
 /* Grid Stuff */
 
-.section1{
+.div1{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr ;
@@ -135,7 +135,7 @@ body{
   grid-column: 1;
 }
 
-.section2{
+.div2{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
