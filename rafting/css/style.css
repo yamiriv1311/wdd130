@@ -3,40 +3,30 @@
 .logo{
   height: 70px;
   width: auto;
-  padding: 5px
+  padding: 0px
 }
 
 .river{
-  padding: 7px
+  padding: 0px;
+  position: relative;
+  left: 45px;
+
 }
 
 .image4{
-  position: relative;
-  right: 310px;
+  float: right;
+ grid-column: 2;
 }
-
-.image5{
-  position: relative;
-  left: 380px;
-}
+.image4:hover{box-shadow: 0px 0 30px #99907D;}
 
 .just1{
-  position: relative;
-  left: 10px;
+  float: left;
+  grid-column: 1;
+  grid-row: 1;
 }
 .just1:hover{box-shadow: 0px 0 30px #99907D;}
 
-.friends{
-  position: relative;
-  left: 17px;
-}
-.friends:hover{box-shadow: 0px 0 30px #99907D;}
 
-.family{
-  position: relative;
-  left: 25px;
-}
-.family:hover{box-shadow: 0px 0 30px #99907D;}
 
 .email{
   height: 50px;
@@ -46,7 +36,7 @@
 
 /* General style */
 header, main, footer{
-  width: 720px;
+  width: 804px;
 }
 
 h1{
@@ -56,9 +46,11 @@ h1{
 }
 
 h2, h3{
-  color: #006765;
+  color: #d8dddd;
   padding: 5px;
   font-family: 'Times New Roman', Times, serif;
+  background-color: #006765;
+
 }
 
 p{
@@ -84,19 +76,23 @@ header{
 
 footer{
   margin: 0 auto;
-  border: 5px solid #C5D6D8;
-  background-color: #C5D6D8;
+  border: 5px solid #253237;
+  background-color: #253237;
   display: grid;
   grid-template-columns: 1fr 200px;
   align-items: center;
   justify-content: center;
-}
+  }
 
+.footer{
+  color: #F9F9F9;
+}
 
 body{
   font-size: 17px;
   margin: 0;
-  padding: 5px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .mainnav{
@@ -116,12 +112,42 @@ body{
   display: block;
   padding: 1rem;
   text-decoration: none;
-  background-color: #C5D6D8;
+  background-color: #253237;
   border: 3px solid #FFFFFF;
+  color: #FFFFFF; 
+
 }
 
 .mainnav a:hover{
-  color: #C5D6D8;
-  background-color: #648767;
+  color: #FFFFFF; 
+  background-color: #006765;
 }
 
+/* Grid Stuff */
+
+.section1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr ;
+}
+
+.p1{
+  grid-column: 1;
+}
+
+.section2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.p2{
+  grid-column: 2;
+}
+
+.header3{
+  text-align: center;
+}
+
+.p3{
+  text-align: center;
+}
