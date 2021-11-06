@@ -1,13 +1,18 @@
+/* Variables */
+:root{
+  --pad: 0px;
+  --pad_5: 5px;
+}
 
 /* I will work with just images first */
 .logo{
   height: 70px;
   width: auto;
-  padding: 0px
+  padding: var(--pad);
 }
 
 .river{
-  padding: 0px;
+  padding: var(--pad);
   position: relative;
   left: 45px;
 
@@ -41,13 +46,13 @@ header, main, footer{
 
 h1{
   color: #253237;
-  padding: 5px;
+  padding: var(--pad_5);
   font-family: 'Times New Roman', Times, serif;
 }
 
 h2, h3{
   color: #d8dddd;
-  padding: 5px;
+  padding: var(--pad_5);
   font-family: 'Times New Roman', Times, serif;
   background-color: #006765;
 
@@ -55,7 +60,7 @@ h2, h3{
 
 p{
   color: #60695C;
-  padding: 5px;
+  padding: var(--pad_5);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -91,7 +96,7 @@ footer{
 body{
   font-size: 17px;
   margin: 0;
-  padding: 0px;
+  padding: var(--pad);
   box-sizing: border-box;
   background-color: #afc7d37c;
 }
@@ -100,7 +105,7 @@ body{
   list-style-type: none;
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: var(--pad);
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
