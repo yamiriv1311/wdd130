@@ -2,6 +2,7 @@
 body{
   padding: 50px;
   background-color: #000000;
+  margin: 1rem;
 }
 
 header{
@@ -13,7 +14,6 @@ header{
 
 main{
   width: 1150px;
-  padding-right: 1rem;
 }
 .navigation{
   list-style-type: none;
