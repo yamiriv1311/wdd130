@@ -1,10 +1,11 @@
+/*HOME PAGE STYLE PART-----------------------------------------------------------*/ 
 /* Variables */
 :root{
   --pad: 0px;
   --pad_5: 5px;
 }
 
-/* I will work with just images first */
+/* Images */
 .logo{
   height: 70px;
   width: auto;
@@ -21,6 +22,7 @@
 .image4{
   float: right;
   grid-column: 2;
+  margin-left: 35px;
 }
 .image4:hover{box-shadow: 0px 0 30px #99907D;}
 
@@ -32,17 +34,17 @@
 }
 .imagee:hover{box-shadow: 0px 0 30px #99907D;}
 
-
-
 .email{
   height: 50px;
   position: relative;
   top: 8px;
 }
 
+
 /* General style */
 header, main, footer{
   width: 804px;
+  height: auto;
 }
 
 h1{
@@ -63,11 +65,13 @@ p{
   color: #60695C;
   padding: var(--pad_5);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 10px;
 }
 
 main{
   margin: 0 auto;
   background-color: #F9F9F9;
+  margin-bottom: 30px;
 }
 
 header{
@@ -97,7 +101,6 @@ footer{
 }
 
 body{
-  font-size: 17px;
   margin: 0;
   padding: var(--pad);
   box-sizing: border-box;
@@ -167,4 +170,154 @@ body{
   text-align: center;
   padding: 6px;
   padding-bottom: 15px;
+}
+
+/*COMBOS SUB-PAGE STYLE PART-----------------------------------------------------------*/ 
+
+/*Images*/
+.image_combo{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.trip_for_1 {
+  grid-column: 1;
+  margin-left: 50px;
+  border-radius: 20%;
+}
+.trip_for_1:hover{box-shadow: 0px 0 30px #b8b083;}
+
+.pair_trip{
+  margin-left: 16px;
+  border-radius: 20%;
+}
+.pair_trip:hover{box-shadow: 0px 0 30px #bfc7c2;}
+
+.friends_trip{
+  grid-column: 1;
+  margin-left: 20px;
+  border-radius: 20%;
+}
+.friends_trip:hover{box-shadow: 0px 0 30px #b8b083;}
+
+.family_trip{
+  grid-column: 2;
+  margin-left: 15px;
+  border-radius: 20%;
+}
+.family_trip:hover{box-shadow: 0px 0 30px #bfc7c2;}
+
+.run_img{
+  margin-left: 200px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+/*Texts*/
+
+p{
+  font-size: 15px;
+}
+
+.title1_combos {
+  position: absolute;
+  margin-left: 190px;
+  margin-top: 40px;
+  color: #FFFFFF;
+  background-color: rgba(174, 204, 171, 0.815);
+}
+
+.title_trip1, .title_trip3{
+  margin-left: 10px;
+  background-color: #324d38;
+  color: #F9F9F9;
+  text-align: center;
+}
+
+.p1_combos, .p3_combos{
+  grid-column: 2;
+  grid-row: 2;
+  background-color: rgba(152, 187, 152, 0.829);
+  margin-top: 70px;
+  margin-bottom: 100px;
+  text-align: center;
+  margin-right: 20px;
+  color: #695733;
+}
+
+.title_trip2, .title_trip4{
+  margin-right: 10px;
+  background-color: #695733;
+  color: #F9F9F9;
+  text-align: center;
+  grid-column: 2;
+}
+
+.p2_combos, .p4_combos{
+  grid-column: 1;
+  grid-row: 2;
+  text-align: center;
+  background-color: #c4a76f;
+  color: #324d38;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 90px;
+}
+
+.p3_combos{
+  margin-top: 40px;
+  margin-bottom: 85px;
+}
+
+.p4_combos{
+  margin-top: 24px;
+  margin-bottom: 120px;
+  font-size: 14px;
+}
+
+.header3_combos{
+  text-align: center;
+  position:absolute;
+  margin-left: 315px;
+}
+
+/*General Style*/
+.body_combos{
+  font-size: 17px;
+  margin: 0;
+  padding: var(--pad);
+  box-sizing: border-box;
+  background-color: rgba(174, 204, 171, 0.815);
+}
+
+.mainnav_combos li {
+  flex: 50px;
+}
+
+.mainnav_combos a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  border: 3px solid #FFFFFF;
+  color: #006765; 
+
+}
+
+
+/*Grid Stuff*/
+.div0_combos{
+  margin-top: 25px;
+}
+
+.div1_combos, .div2_combos, .div3_combos, .div4_combos{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr ;
+}
+
+.run{
+  margin-bottom: 30px;
+  background-color: rgba(174, 204, 171, 0.815);
 }
