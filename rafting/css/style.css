@@ -280,6 +280,17 @@ p{
   text-align: center;
   position:absolute;
   margin-left: 315px;
+  top: 2210px;
+}
+
+.button{
+  color:#FFFFFF;
+  text-align: center;
+  background-color: #931f1de1;
+  position: absolute;
+  top: 2330px;
+  right: 510px;
+  padding: 20px;
 }
 
 /*General Style*/
