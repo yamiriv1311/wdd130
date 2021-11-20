@@ -11,53 +11,31 @@
   padding: var(--pad);
 }
 
-.river{
-  padding: var(--pad);
-  position: relative;
-  left: 45px;
-
+.image{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
-.image4{
-  float: right;
-  grid-column: 2;
+.image_1{
+  grid-column: 1;
+  margin-left: 20px;
 }
-.image4:hover{box-shadow: 0px 0 30px #99907D;}
+.image_1:hover{box-shadow: 0px 0 30px #587564;}
 
-.imagee{
+.just1{
   float: left;
-  grid-row: 2;
-  margin: 25px;
-
+  grid-column: 1;
+  grid-row: 1;
 }
-.imagee:hover{box-shadow: 0px 0 30px #99907D;}
+.just1:hover{box-shadow: 0px 0 30px #99907D;}
 
-
-
-.email{
-  height: 50px;
-  position: relative;
-  top: 8px;
-}
 
 /* General style */
 header, main, footer{
   width: 804px;
 }
 
-h1{
-  color: #253237;
-  padding: var(--pad_5);
-  font-family: 'Times New Roman', Times, serif;
-}
-
-h2, h3{
-  color: #d8dddd;
-  padding: var(--pad_5);
-  font-family: 'Times New Roman', Times, serif;
-  background-color: #006765;
-
-}
 
 p{
   color: #60695C;
@@ -83,7 +61,6 @@ header{
 
 footer{
   margin: 0 auto;
-  margin-bottom: 20px;
   border: 5px solid #253237;
   background-color: #253237;
   display: grid;
@@ -101,7 +78,7 @@ body{
   margin: 0;
   padding: var(--pad);
   box-sizing: border-box;
-  background-color: #afc7d37c;
+  background-color: rgba(174, 204, 171, 0.815);
 }
 
 .mainnav{
@@ -114,16 +91,16 @@ body{
 }
 
 .mainnav li {
-  flex: 1 1 auto;
+  flex: 50px;
 }
 
 .mainnav a {
   display: block;
   padding: 1rem;
   text-decoration: none;
-  background-color: #253237;
+  background-color: #FFFFFF;
   border: 3px solid #FFFFFF;
-  color: #FFFFFF; 
+  color: #006765; 
 
 }
 
@@ -132,7 +109,27 @@ body{
   background-color: #006765;
 }
 
+
+.title1 {
+  position: absolute;
+  margin-left: 190px;
+  margin-top: 40px;
+  color: #FFFFFF;
+  background-color: rgba(174, 204, 171, 0.815);
+}
+
+.title_trip1{
+  margin-left: 10px;
+  background-color: #324d38;
+  color: #F9F9F9;
+  text-align: center;
+}
+
 /* Grid Stuff */
+
+.div0{
+  margin-top: 25px;
+}
 
 .div1{
   display: grid;
@@ -141,22 +138,23 @@ body{
 }
 
 .p1{
-  grid-column: 1;
+  grid-column: 2;
+  grid-row: 2;
+  background-color: rgba(152, 187, 152, 0.829);
+  margin-top: 70px;
+  margin-bottom: 100px;
+  text-align: center;
+  margin-right: 20px;
+  color: #695733;
 }
 
 .div2{
   display: grid;
-  grid-template-columns: 402px 402px;
+  grid-template-columns: 1fr 1fr;
 }
 
-.title2{
-  grid-column: 2;
-
-}
 .p2{
   grid-column: 2;
-  grid-row: 2;
-  margin-top: 30px;
 }
 
 .header3{
@@ -165,6 +163,4 @@ body{
 
 .p3{
   text-align: center;
-  padding: 6px;
-  padding-bottom: 15px;
 }
