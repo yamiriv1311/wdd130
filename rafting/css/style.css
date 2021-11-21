@@ -311,7 +311,7 @@ p{
   padding: 1rem;
   text-decoration: none;
   background-color: #FFFFFF;
-  border: 3px solid #FFFFFF;
+  border: 3px solid #ffffff;
   color: #006765; 
 
 }
@@ -331,4 +331,73 @@ p{
 .run{
   margin-bottom: 30px;
   background-color: rgba(174, 204, 171, 0.815);
+}
+
+/*CONTACT US SUB-PAGE STYLE PART-----------------------------------------------------------*/ 
+
+.mainnav_contact a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  border-left: 3px solid #006765;
+  color: #2b2b2b; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+
+}
+
+.mainnav_contact a:hover{ 
+  background-color: #4d7973;
+}
+
+
+.title_contact{
+  font-family:Montserrat;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.main_contact{
+  margin-top: 30px;
+  height: 430px;
+  display: grid;
+  grid-template-columns: 402px 402px;
+  grid-template-rows: 200px 100px;
+}
+
+.body_contact{
+  background: #253237;
+}
+
+.contact_image{
+  grid-column: 2;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.address{
+  grid-row: 2;
+  margin-top: 30px;
+}
+
+.social_media_{
+  position: absolute;
+  top: 450px;
+  left: 340px;
+}
+
+.button_contact{
+  background-color: rgba(145, 22, 22, 0.993);
+  padding: 20px;
+  color:white;
+  cursor: pointer;
+}
+
+.button_contact{
+  position: absolute;
+  margin-left: 410px;
+  margin-top: -70px;
+  width: 150px;
+  text-align: center;
 }
