@@ -289,8 +289,10 @@ p{
   background-color: #931f1de1;
   position: absolute;
   top: 2330px;
-  right: 510px;
+  right: 480px;
   padding: 20px;
+  cursor: pointer;
+
 }
 
 /*General Style*/
