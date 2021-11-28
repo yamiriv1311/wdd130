@@ -14,10 +14,6 @@ input{
   border-color: gainsboro;
 }
 
-.comment_input{
-  height: 100px;
-  width: 530px;
-}
 
 .email_input{
   grid-column: 2/2
