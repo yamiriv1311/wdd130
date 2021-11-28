@@ -62,3 +62,37 @@ main{
   width: 575px;
 
 }
+
+/* ABOUT US PAGE */
+
+.header_about_us{
+  background-color: #000000;
+  
+}
+
+.logo_img{
+  position: absolute;
+  right: 35px;
+  top: 20px;
+}
+
+.nav_about_us{
+  width: 860px;
+  padding: 30px;
+
+}
+
+.image_about_us{
+  grid-column: 1/2;
+}
+
+.div_about_us{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.p_1_about_us{
+  color: white;
+  grid-column: 2/2;
+  padding: 20px;
+}
