@@ -15,25 +15,17 @@ input{
 }
 
 
-.email_input{
-  grid-column: 2/2
-}
-
-.name, .email{
+.name, .email, .comments{
   margin-left: 30px;
   padding: 10px;
 }
 
-.email
 
 /* GRID STUFF */
 
 form{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
 }
-
 
 /* GENERAL STUFF */
 
