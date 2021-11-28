@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clients Opinions</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -15,7 +16,22 @@
 
   <form action="#" method="get">
 
-    <label for=""></label>
+    <div class="name">
+    <label for="name">Please enter your name: </label>
+    <input type="text"  name="name" id="name" required>
+    </div>
+    
+    <div class="email">
+    <label for="email">Please enter your email: </label>
+    <input type="email" name="email" id="email" required class="email_input">
+    </div>
+ 
+    <div class="comments">
+    <label for="msg">Please enter your comments: </label>
+    <input type="msg" name="user_comment" id="msg" class="comment_input">
+    </div>
+
   </form>
+  <button type="submit" class="button"> Click here to send your comments </button>
 </body>
 </html>

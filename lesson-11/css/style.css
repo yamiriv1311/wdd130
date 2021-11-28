@@ -1,0 +1,62 @@
+
+/* TEXT STUFF */
+
+h1{
+  text-align: center;
+  color: rgb(22, 30, 95);
+}
+
+
+/* LABEL FORMAT */
+
+input{
+  background-color:gainsboro;
+  border-color: gainsboro;
+}
+
+.comment_input{
+  height: 100px;
+  width: 530px;
+}
+
+.email_input{
+  grid-column: 2/2
+}
+
+.name, .email{
+  margin-left: 30px;
+  padding: 10px;
+}
+
+.email
+
+/* GRID STUFF */
+
+form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+
+/* GENERAL STUFF */
+
+body{
+  max-width: 600px;
+  max-height: 900px;
+  margin-left: 350px;
+  margin-top: 20px;
+}
+
+/* BUTTON STUFF */
+
+.button{
+  margin-top: 20px;
+  background-color: rgba(44, 73, 37, 0.863);
+  border-color: rgba(44, 73, 37, 0.863);
+  color: azure;
+  margin-top: 40px;
+  padding: 15px;
+  margin-left: 170px;
+  cursor: pointer;
+}
