@@ -1,0 +1,59 @@
+
+.card{
+  width: 400px;
+  background-color: beige;
+  border-radius: 12px;
+}
+
+body {
+  background: linear-gradient(to right, #8e9eab, #eef2f3);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: (your choice), sans-serif;
+  letter-spacing: 0.03em;
+}
+
+
+
+.letters{
+  margin: 30px;
+}
+
+.title{
+  text-align: center;
+}
+
+.temple_img{
+  width: 400px  ;
+  border-radius: 12px;
+}
+
+footer{
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+.details_button{
+  background-color:rgb(189, 189, 189);
+  text-align: center;
+  border-radius: 12px;
+  text-decoration: none;
+  color: rgb(59, 59, 59);  
+  margin-top: 20px;
+}
+
+.card{
+  box-shadow: 10px 5px 5px rgb(177, 175, 175);
+  border-radius: 12px;
+
+}
+
+.heart_img{
+  position: absolute;
+  right: 460px;
+}
+
